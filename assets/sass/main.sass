@@ -101,26 +101,30 @@ html, body
 
         input, button
           margin: 10px 0
-          width: 400px
+          width: 80%
           height: 40px
 
-    span.close
+    .close-container
+      width: 50px
+      height: 50px
+      cursor: pointer
       position: absolute
       top: 0
       right: 0
-      margin: 20px 10px
-      cursor: pointer
-
-    span.close:after,
-    span.close:before
-      content: ""
-      display: block
-      height: 1px
-      width: 25px
-      background-color: #202020
-      transform-origin: center
-
-    span.close:after
-      transform: rotate(45deg)
-    span.close:before
-      transform: rotate(-45deg)
+      span.close
+        position: absolute
+        top: 0
+        right: 0
+        margin: 20px 10px
+      span.close:after,
+      span.close:before
+        content: ""
+        display: block
+        height: 1px
+        width: 25px
+        background-color: #202020
+        transform-origin: center
+      span.close:after
+        transform: rotate(45deg)
+      span.close:before
+        transform: rotate(-45deg)

@@ -3,7 +3,7 @@
 var ModalViewController = (function ($) {
   $(function() {
     var $clickMe        = $('.click');
-    var $close          = $('.modal-view .close');
+    var $close          = $('.modal-view .close-container');
     var $modal          = $('.modal-container');
     function handleClick() {
       $modal.toggleClass('show');
